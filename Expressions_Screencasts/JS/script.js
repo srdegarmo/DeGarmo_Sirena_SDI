@@ -58,5 +58,13 @@ console.log(a); //will show you value of a
  var perimeter = length * 2 + width *2;
  console.log(perimeter);
 
+//USING ARRAYS IN EXPRESSIONS
+ //expressions + arrays + array access notation
+ //adding items in an array
+
+var orangeBins = [234, 567, 883];
+//array index numbers [0, 1, 2, etc}
+ var total = (orangeBins[0] + orangeBins[1] + orangeBins[2]);
+ console.log(total);
 
 
