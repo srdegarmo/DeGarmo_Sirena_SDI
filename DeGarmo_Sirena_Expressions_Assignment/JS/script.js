@@ -17,4 +17,13 @@ console.log(name);
 //Welcome user with an alert
  alert("Hello, " + name + "! Let's figure out how long it will take you to save enough money to purchase a certain item");
 
+//Ask the user what they are saving for
+//Create variable to catch prompted answer
+ var item = prompt("What item are you saving up to purchase?");
+ console.log(item);
+
+//Ask user how much money they already have saved
+//Create variable to catch prompted answer
+ var saved = prompt("How much money do you currently have saved?");
+ console.log(saved);
  
