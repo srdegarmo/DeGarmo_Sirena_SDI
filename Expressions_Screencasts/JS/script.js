@@ -5,7 +5,7 @@ SDI Section #3
 Expressions Screencasts
 1/16/2015
  */
-alert("Testing to see if the JS file is attached to the html.");
+alert("You can do this, Sirena! :)");
 
  //BASIC EXPRESSIONS
 
@@ -123,4 +123,44 @@ var orangeBins = [234, 567, 883];
  var secPart = 2679;
  var phoneNum = "(" + String(areaCode) + ") " + String(firstPart) + "-" + String(secPart);
  console.log(phoneNum);
+
+//ASSIGNMENT OPERATORS - an expression(-,*,+,etc) with assignment
+
+ //set up number variable
+ var a = 3;
+
+ //this uses a, but does not add a to 4
+ a + 4;
+
+ //if we want to change a, we need to assign an expression to a
+ //assignment operator ex: =
+ a = a + 4;
+ console.log(a);
+
+ //assignment operator addition ex: +=
+ var a = 2;
+ a += 4; //same as a = a +4;
+ console.log(a);
+
+ //assignment operator multiplication ex: *=
+ var a = 2;
+ a *= 4; //same as a = a * 4;
+ console.log(a);
+
+ //assignment operator division ex: /=
+ var a = 12;
+ a /= 4; //same as a = a/4;
+ console.log(a);
+
+ //assignment operator subtraction ex: -=
+ var a = 10;
+ a -= 5; //same as a = a - 5;
+ console.log(a);
+
+ //Increment and decrement operators - only work with 1
+ //go up by one or down by one
+ //increment operator ex: ++
+ var a = 10;
+ a ++ 1; //same as a = a + 1; or a += 1;
+ console.log(a);
 
