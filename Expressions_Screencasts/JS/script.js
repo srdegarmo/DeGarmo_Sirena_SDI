@@ -90,3 +90,27 @@ var orangeBins = [234, 567, 883];
  var b = "7";
  var result = a + b;
  console.log(result);
+
+//CASTING
+ //make computer treat number as a string or a string like a number
+
+ //holding character 6, not number 6
+ var stringVar = "6";
+ var result = 7 + stringVar;
+ console.log(result);
+
+ //Telling computer to treat character as number aka casting
+ //put parenthesis around thing we're casting
+ //type thing we're casting to in front of parenthesis
+ var stringVar = "6";
+ var result = 7 + Number(stringVar);
+ console.log(result);
+
+//phone number
+ //casting as strings
+ var areaCode = 407;
+ var firstPart = 203;
+ var secPart = 4529;
+
+ var phoneNum = String(areaCode) + String(firstPart) + String(secPart);
+ console.log(phoneNum)
