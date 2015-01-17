@@ -37,7 +37,15 @@ console.log(name);
 
 //Calculate the difference between itemCost and saved
  var difference = itemCost - saved;
- console.log(name + " you need to save " + difference + " more dollars.");
- alert (name + " you need to save " + difference + " more dollars.");
+ console.log(name + " you need to save " + difference + " more dollars in order to purchase " + item + ".");
 
+//Display difference to user
+ alert (name + " you need to save " + difference + " more dollars in order to purchase " + item + ".");
 
+//Determine how many weeks it will take the user to save enough money
+ alert ("Now, let's figure out how long it will take you to save " + difference + "...");
+
+//Ask user how much money they can put in savings per week
+ var availableToSave = prompt("How much money are you able to put in savings each week?");
+
+ 
