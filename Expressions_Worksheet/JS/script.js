@@ -41,4 +41,10 @@ Expressions Worksheet
  //print total number of slices to console
  console.log(totalSlices);
 //Divide total number of slices by people to find out how many slices each person gets
- var 
+ var slicesPerPerson = totalSlices / people;
+ //Print result to console
+ console.log(slicesPerPerson);
+ //Show user how many pieces of pizza each person at the party ate using an alert
+ alert("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+ 
+
