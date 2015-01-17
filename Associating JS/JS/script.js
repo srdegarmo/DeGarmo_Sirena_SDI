@@ -1,2 +1,5 @@
-var familyNames=["Sirena", "Morgie", "Dillan"];
-console.log(familyNames[0]);
+//Expressions
+
+var a = 2;
+console.log(a);
+
