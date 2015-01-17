@@ -157,10 +157,14 @@ var orangeBins = [234, 567, 883];
  a -= 5; //same as a = a - 5;
  console.log(a);
 
- //Increment and decrement operators - only work with 1
- //go up by one or down by one
- //increment operator ex: ++
- var a = 10;
- a ++ 1; //same as a = a + 1; or a += 1;
- console.log(a);
+ //assignment operator increment ex: ++
+ var b = 10;
+ b ++ ; //same as b = b + 1; or b = b += 1;
+ console.log(b);
+
+ //assignment operator decrement ex: --
+ var c = 10
+ c --; //same as c = c - 1; or c = c -=;
+ console.log(c);
+
 
