@@ -25,3 +25,12 @@ console.log(a); //will show you value of a
  //2012 - yearBorn; defines expression, but doesn't have a variable to store the answer
  var age = 2015 - yearBorn; //create variable to store result
  console.log(age);
+
+ //ARITHMETIC OPERATORS
+
+ //area of triangle = half of the width * height
+ // var area; is the variable for result
+ var width = 4; //given
+ var height = 5; //given
+ var area = 0.5 * width * height;
+ console.log(area);
