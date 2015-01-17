@@ -56,3 +56,12 @@ Expressions Worksheet
  //Display data for leftoverSlices in an alert
  var sparkySlices = alert("Because we are dividing the whole pizza slices evenly amongst the party-goers, there may be some leftovers for Sparky to eat!");
  var sparkySlices = alert("There were " + totalSlices + " slices of pizza and " + people + " people; so, each person got " + slicesPerPerson + " pieces of pizza. \nThat leaves " + leftoverSlices + " slices of pizza for Sparky to eat!");
+
+ //AVERAGE SHOPPING BILL
+ //Calculate average weekly grocery spending over the past 5 weeks
+ //Create array storing past five grocery shopping totals
+ var groceries = [100.00, 25.25, 55.75, 35.00, 140.65];
+ //To find average amount spent add all grocery shopping totals then divide by number of totals in array
+ var totalSpent = groceries[0] + groceries[1] + groceries[2] + groceries[3] + groceries[4];
+ console.log(totalSpent);
+ 
