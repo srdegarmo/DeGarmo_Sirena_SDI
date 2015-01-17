@@ -76,3 +76,17 @@ var orangeBins = [234, 567, 883];
  var avgPencils = (totalPencils/7);
  console.log(avgPencils);
 
+//CONCATENATING
+
+ var firstName = ("Sirena");
+ var lastName = ("DeGarmo");
+ var fullName = (firstName + " " + lastName);
+ console.log(fullName);
+
+ //strings are inside double quotes - concatenation sees these as characters (not numbers) & will combine things in strings EX: "6" + "7" = 67
+ //numbers are not in quotes - concatenation will see these as numbers & will use arithmetic to find sum EX: 6 + 7 = 13
+
+ var a = "6";
+ var b = "7";
+ var result = a + b;
+ console.log(result);
