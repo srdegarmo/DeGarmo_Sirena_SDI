@@ -26,4 +26,16 @@ console.log(name);
 //Create variable to catch prompted answer
  var saved = prompt("How much money do you currently have saved?");
  console.log(saved);
- 
+
+//Ask user how much item in question costs
+//Create variable to catch prompted answer
+ var itemCost = prompt("How much does " + item + "cost?");
+ console.log(itemCost);
+
+//Create alert outlining data collected so far
+ alert("Okay, " + name + ". So far we have determined that " + item + " costs " + itemCost + ", and you have " + saved + " saved up so far. Now lets determine how much more you need to save.");
+
+//Calculate the difference between itemCost and saved
+ var difference = itemCost - saved;
+ console.log(name + " you need to save " + difference + " more dollars.");
+
