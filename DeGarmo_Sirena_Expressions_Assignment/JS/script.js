@@ -47,5 +47,14 @@ console.log(name);
 
 //Ask user how much money they can put in savings per week
  var availableToSave = prompt("How much money are you able to put in savings each week?");
+ console.log(availableToSave);
 
+ //Update user of data collected
+ alert (name + ", you have " + availableToSave + " each week. You need to save a total of " + difference " more." \n "Are you ready to see how long that will take you?");
+
+ //Calculate how many weeks it will take to save enough money
+ var moneyNeeded = difference/availableToSave;
+
+//Display results
+ alert (name + ", you need to save " + moneyNeeded " in order to purchase " + item);
  
