@@ -22,7 +22,7 @@ Expressions Worksheet
  alert("Sparky is " + humanYears + " human years old; which is " + dogYears + " in dog years.");
 
 //SLICE OF PIE, pt. 1
- //Create expression to calculate how much pizza each party-goer can eat
+ //Create expression to calculate how much pizza each party-goer can eat if they all get an even amount of whole slices
   //all pizzas have the same number of identically sized slices
  //Tell user what we are calculating
  var slices = alert("Let's determine how much pizza each person that comes to the party can eat.");
@@ -42,6 +42,7 @@ Expressions Worksheet
  console.log(totalSlices);
 //Determine how many slices will be leftover if each guests gets whole slices using the modulo operator
  var leftoverSlices = totalSlices % people;
+ console.log(leftoverSlices);
  //Subtract leftover slices from total slices to determine how many whole slices are available to guests
  var availSlices = totalSlices - leftoverSlices;
  //Divide available slices by the number of people to find out how many whole slices each person can eat if everyone gets the same amount
@@ -51,6 +52,7 @@ Expressions Worksheet
 
 //SLICE OF PIE, pt. 2
  //Sparky gets to eat the leftover pizza after all the whole slices are divided up between the guests
- //Determine how many slices of pizza will be leftover for Sparky using modulo operator
-
- var sparkySlices = alert("Let's determine how many pieces of pizza will be leftover for Sparky after each party guest gets " + slicesPerPerson + " pieces of pizza.");
+ //leftoverSlices = totalSlices % people gave us the remainder after pizza slices were divided up evenly amongst the guests
+ //Display data for leftoverSlices in an alert
+ var sparkySlices = alert("Because we are dividing the whole pizza slices evenly amongst the party-goers, there may be some leftovers for Sparky to eat!");
+ var sparkySlices = alert("There were " + totalSlices + " slices of pizza and " + people + " people; so, each person got " + slicesPerPerson + " pieces of pizza. \nThat leaves " + leftoverSlices + " slices of pizza for Sparky to eat!");
