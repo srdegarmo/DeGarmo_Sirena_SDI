@@ -38,4 +38,6 @@ console.log(name);
 //Calculate the difference between itemCost and saved
  var difference = itemCost - saved;
  console.log(name + " you need to save " + difference + " more dollars.");
+ alert (name + " you need to save " + difference + " more dollars.");
+
 
