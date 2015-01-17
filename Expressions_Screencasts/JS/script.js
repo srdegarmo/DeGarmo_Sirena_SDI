@@ -39,3 +39,24 @@ console.log(a); //will show you value of a
 
  var remainder = 32%10 //tells us what's left over when we divide 32 by 10
  console.log(remainder);
+
+ //ORDER OF OPERATIONS
+
+ var quiz1 = 87;
+ var quiz2 = 100;
+ var quiz3 = 60;
+ var quiz4 = 80;
+
+ //the average is the sum of all numbers divided by the number of items
+ //create result variable
+ var average = (quiz1 + quiz2 + quiz3 +quiz4)/4;
+//console.log(average);
+
+ //perimeter is twice the length times twice the width
+ var length = 7;
+ var width = 6;
+ var perimeter = length * 2 + width *2;
+ console.log(perimeter);
+
+
+
