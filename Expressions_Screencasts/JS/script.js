@@ -114,3 +114,13 @@ var orangeBins = [234, 567, 883];
 
  var phoneNum = String(areaCode) + String(firstPart) + String(secPart);
  console.log(phoneNum)
+
+ //practicing casting
+
+ //(918) 805-2679
+ var areaCode = 918;
+ var firstPart = 805;
+ var secPart = 2679;
+ var phoneNum = "(" + String(areaCode) + ") " + String(firstPart) + "-" + String(secPart);
+ console.log(phoneNum);
+
