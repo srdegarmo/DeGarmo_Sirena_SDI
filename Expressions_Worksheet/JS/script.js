@@ -23,11 +23,22 @@ Expressions Worksheet
 
 
  //Create expression to calculate how much pizza each party-goer can eat
-  //assume all pizzas have the same number of identically sized slices
+  //all pizzas have the same number of identically sized slices
+ //Tell user what we are calculating
  var slices = alert("Let's determine how much pizza each person that comes to the party can eat.");
+ //Ask user how many people are coming to the party
+ var people = prompt("How many people are attending the party?");
+ //Ask user how many slices of pizza are in each pie
  var slices = prompt("How many slices are in each pizza?");
- var people = prompt("How many people are coming to the party?");
+ //Ask user how many pizzas were ordered
  var pizza = prompt("How many pizzas were ordered?");
+ //Print results to console
  console.log(slices);
  console.log(people);
  console.log(pizza);
+ //Multiply slices by pizza to determine how many slices there are total
+ var totalSlices = slices * pizza;
+ //print total number of slices to console
+ console.log(totalSlices);
+//Divide total number of slices by people to find out how many slices each person gets
+ var 
