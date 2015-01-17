@@ -19,4 +19,9 @@ b = a + 3; //store value of a+3 inside b
 console.log(b); //will show you value of a+3
 console.log(a); //will show you value of a
 
+//EXAMPLE EXPRESSIONS - AGE
 
+ var yearBorn = 1994; //define age first
+ //2012 - yearBorn; defines expression, but doesn't have a variable to store the answer
+ var age = 2015 - yearBorn; //create variable to store result
+ console.log(age);
