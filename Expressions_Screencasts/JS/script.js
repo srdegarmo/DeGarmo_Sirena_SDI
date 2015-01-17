@@ -67,4 +67,12 @@ var orangeBins = [234, 567, 883];
  var total = (orangeBins[0] + orangeBins[1] + orangeBins[2]);
  console.log(total);
 
+ //practicing arrays in expressions
+ //determining how many pencils a class of children has all together
+ var pencils = [15, 7, 2, 0, 12, 9, 22];
+ var totalPencils = (pencils[0] + pencils[1] + pencils[2] + pencils[3] + pencils[4] + pencils[5] + pencils[6]);
+ console.log(totalPencils);
+ //average amount of pencils
+ var avgPencils = (totalPencils/7);
+ console.log(avgPencils);
 
