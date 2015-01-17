@@ -34,3 +34,8 @@ console.log(a); //will show you value of a
  var height = 5; //given
  var area = 0.5 * width * height;
  console.log(area);
+
+ //MODULO OPERATOR - gets remainder of division
+
+ var remainder = 32%10 //tells us what's left over when we divide 32 by 10
+ console.log(remainder);
