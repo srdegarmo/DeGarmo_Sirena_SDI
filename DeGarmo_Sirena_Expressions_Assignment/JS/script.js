@@ -5,7 +5,6 @@ SDI Section #3
 Expressions Assignment
 1/16/2015
  */
-//alert("Testing to see if the JS file is attached to the html.");
 
 //Creating calculator to determine how long it will take user to save enough money to buy a particular item
 
@@ -57,4 +56,3 @@ console.log(name);
 
 //Display results
  alert (name + ", you need to save " + moneyNeeded " in order to purchase " + item);
- 
