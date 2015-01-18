@@ -72,12 +72,34 @@ alert("Over the span of five weeks, I spent $" + totalSpent + " on groceries. \n
  //DISCOUNTS
  //Calculate discounted price of an item with and without tax
  //Ask user what item we are calculating the discounted price for
- var item = ("What item are we finding the discounted price of?");
+ var item = prompt("What item are we finding the discounted price of?");
  console.log(item);
  //Determine original price
- var origPrice = ("To determine the discounted price of an item, please provide the original selling price:");
+ var origPrice = prompt("To determine the discounted price of an item, please provide the original selling price:");
  console.log(origPrice);
- var discPercent = ("Now, please enter the discount percentage:");
+ //Determine discount percentage
+ var discPercent = prompt("Now, please enter the discount percentage:");
  console.log(discPercent);
- var salesTax = ("Finally, please enter the sales tax percentage in your region:");
+ //Determine sales tax
+ var salesTax = prompt("Finally, please enter the sales tax percentage in your region:");
  console.log(salesTax);
+ //Multiply discPercent by 100 to convert to a decimal so we can determine discount amount
+ var discPercentage = discPercent * 100;
+ console.log(discPercentage);
+ //To find amount of total cost saved based on discPercentage - multiply discPercentage by origPrice
+ var savingsAmount = discPercentage * origPrice;
+ console.log(savingsAmount);
+ //To find cost of item after savings have been deducted - subtract savingsAmount from origPrice
+ var withoutTax = origPrice - savingsAmount;
+ //discCost represents the discount cost of the item before tax
+ //Determine what discCost is with sales tax
+ //Determine sales tax amount by multiplying salesTax by 100 to convert to a decimal
+ var taxPercent = salesTax * 100;
+ //Determine how much sales tax is on the item by multiplying taxPercent by discCost
+ var taxAmount = taxPercent * discCost;
+ //taxedAmount represents the total taxes that will be added to the discCost
+ //Determine what the cost of the discounted item will be with sales tax
+ var withTax = taxAmount + withoutTax;
+ //Create alert showing item, origCost, discPercent, discount cost without tax and with tax
+ alert("Your " + item + " was originally $" + origPrice + ", but after a " + discPercent + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax.");
+ 
