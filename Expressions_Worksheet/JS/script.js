@@ -60,11 +60,11 @@ Expressions Worksheet
  //AVERAGE SHOPPING BILL
  //Calculate average weekly grocery spending over the past 5 weeks
  //Create array storing past five grocery shopping totals
- var groceries = [100.00, 25.25, 55.75, 35.00, 140.65];
- var groceries = alert("Let's calculate how much I spend on groceries on average. \nMy last 5 grocery trips cost: $" + String(groceries[0]) + ", $" + String(groceries[1]) + ", $" + String(groceries[2]) + ", $" + String(groceries[3]) + ", and $" + String(groceries[4]) + ".");
- //To find average amount spent add all grocery shopping totals then divide by number of totals in array
- var totalSpent = groceries[0] + groceries[1] + groceries[2] + groceries[3] + groceries[4];
- var groceries = alert("Over the span of five weeks, I spent $" + totalSpent + " on groceries. \nTo figure out the average amount spent, I need to divide $" + totalSpent + " by the number of shopping trips made (five).");
+ var groceryCost = [100.00, 25.25, 55.75, 35.00, 140.65];
+alert("Let's calculate how much I spend on groceries on average. \nMy last 5 grocery trips cost: $" + String(groceryCost[0]) + ", $" + String(groceryCost[1]) + ", $" + String(groceryCost[2]) + ", $" + String(groceryCost[3]) + ", and $" + String(groceryCost[4]) + ".");
+ //To find average amount spent we must add all grocery shopping totals then divide by number of totals in array
+ var totalSpent = groceryCost[0] + groceryCost[1] + groceryCost[2] + groceryCost[3] + groceryCost[4];
+alert("Over the span of five weeks, I spent $" + totalSpent + " on groceries. \nTo figure out the average amount spent, I need to divide $" + totalSpent + " by the number of shopping trips made (five).");
 //Divide totalSpent by shopping trips made to find average amount spent
  var avgSpent = totalSpent / 5;
- var groceries = alert("I have spent a total of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + avgSpent + " per week." );
+ alert("I have spent a total of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + avgSpent + " per week." );
