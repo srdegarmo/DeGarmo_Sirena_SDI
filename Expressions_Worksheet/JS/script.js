@@ -68,3 +68,16 @@ alert("Over the span of five weeks, I spent $" + totalSpent + " on groceries. \n
 //Divide totalSpent by shopping trips made to find average amount spent
  var avgSpent = totalSpent / 5;
  alert("I have spent a total of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + avgSpent + " per week." );
+
+ //DISCOUNTS
+ //Calculate discounted price of an item with and without tax
+ //Ask user what item we are calculating the discounted price for
+ var item = ("What item are we finding the discounted price of?");
+ console.log(item);
+ //Determine original price
+ var origPrice = ("To determine the discounted price of an item, please provide the original selling price:");
+ console.log(origPrice);
+ var discPercent = ("Now, please enter the discount percentage:");
+ console.log(discPercent);
+ var salesTax = ("Finally, please enter the sales tax percentage in your region:");
+ console.log(salesTax);
