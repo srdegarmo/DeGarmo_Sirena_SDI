@@ -7,22 +7,16 @@
  */
 //alert("Testing to see if the JS file is attached to the html.");
 
-//Conditional statement
-//conditional operators: > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to), != (not equal to), == (equal to)
-//if condition is deemed false, it will completely ignore what is in the {}
-//if(condition){action}
-//beach scenario: if it is hotter than 70, we will go to the beach
-temp=82;
-if(temp>70){goToTheBeach();}
 
-//Nesting conditionals
-//if it is sunny, I will go to the beach; if not, I will go to the movies
-//if the water is warm, I'll wear my new swim suit
-if(sunny) {
- goToTheBeach();
- if(warmWater){
-  wearNewSuit();
- }
-}else{
- goToTheMovies();
+//Print code if child is old enough to ride roller coaster
+var oldEnough = false;
+
+//if child is old enough print to the console "you can ride!"
+if(oldEnough){
+ //if oldEnough is true, computer performs code in curly braces
+ console.log("You can ride the coaster!");
 }
+
+//if oldEnough is set to True "you can ride" will print to console
+//if oldEnough is set to False, computer will skip what is in curly braces and move to next line
+console.log("What comes after?");
