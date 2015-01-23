@@ -9,14 +9,13 @@
 
 
 //Print code if child is old enough to ride roller coaster
-var oldEnough = false;
+var kidHeight = 50;
+var minHeight = 48;
 
 //if child is old enough print to the console "you can ride!"
-if(oldEnough){
+//if the kid is over 48in tall
+if(kidHeight > minHeight){
  //if oldEnough is true, computer performs code in curly braces
  console.log("You can ride the coaster!");
 }
 
-//if oldEnough is set to True "you can ride" will print to console
-//if oldEnough is set to False, computer will skip what is in curly braces and move to next line
-console.log("What comes after?");
