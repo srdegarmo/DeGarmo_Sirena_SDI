@@ -56,3 +56,24 @@ if(iPhonePrice < budget || wonLottery) {
 }
 
 
+//Ternary operators
+
+var gpa = 48;
+
+//if gpa is over min 2.0 score, the student can graduate
+/*if(gpa > 2.0){
+ console.log("You can graduate!");
+}else{
+ cosnole.log("GPA is too low!");
+}*/
+
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
+
+//if a child is under 10 - Green Egss & Ham
+//otherwise they get the Time Machine
+
+var age = 17;
+var book;
+
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
