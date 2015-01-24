@@ -39,17 +39,20 @@ if(kidHeight >= minHeight){
  //only between boolean variables or between comparisons
 //&& (and), || (or), ^ (exclusive or), ! (not)
 //&& - both pair must be true
+//|| - one of the two must be true
+ //TRUE: true || true, true || false, false || true
+//^ - only one can be true
+//! - flips meaning of object - true becomes false, false becomes true
 
 var budget= 300;
 var iPhonePrice = 699.99;
-var wonLottery = false;
+var wonLottery = true;
 
 //if price of phone is less than budget AND if paycheck is over 300
-if(iPhonePrice < budget || wonLottery === true) {
+if(iPhonePrice < budget || wonLottery) {
  console.log("We can buy the phone!");
 }else{
  console.log("No phone for you!");
 }
 
-//|| - one of the two must be true
-//TRUE: true || true, true || false, false || true
+
