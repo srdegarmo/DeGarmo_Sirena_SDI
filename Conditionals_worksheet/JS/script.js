@@ -24,6 +24,7 @@ Conditionals worksheet
  }
 */
 
+/*
  var username = "srdegarmo";
  var password = "fullsail1";
  var actualUsername = "srdegarmo";
@@ -36,3 +37,6 @@ Conditionals worksheet
  }else{
   console.log("Welcome, " + username + "!");
  }
+*/
+
+ 
