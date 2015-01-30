@@ -27,6 +27,12 @@ Functions Screencast
 
   Arguments are things going into the function
   Returning is things coming out of the function
+
+  Anonymous functions
+  var functionName = function(){
+  //code to run
+  }
+  functionName();
   */
 
  function yourName(){
@@ -60,3 +66,11 @@ Functions Screencast
  dogYears(4);
  dogYears(10);
 
+ //Anonymous function - HAVE to be declared before they're called
+
+ var calcArea = function(width, height) {
+  var area = width * height;
+  return area;
+ }
+var a = calcArea(20, 30);
+ console.log(a);
