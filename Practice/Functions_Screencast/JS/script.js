@@ -18,6 +18,13 @@ Functions Screencast
 
   Variable Scope
   when calling a function it's going to use the variable inside of it's function - variables are mostly contained within their functions
+
+  Make something in a function slightly different when we use it
+  funcName(argument1, argument2);
+  function funcName(parameter1, parameter2){
+   code the function runs
+  }
+
   */
 
  function yourName(){
@@ -36,3 +43,17 @@ Functions Screencast
   console.log(sum);
  }
  addNumbers();
+
+
+ function calcArea(w, h){
+  var area = w * h;
+  console.log(area);
+ }
+ calcArea(30, 20);
+
+ function dogYears(age){
+  var dogYears = age * 7;
+  console.log("Sparky is " + dogYears + " years old.");
+ }
+ dogYears(4);
+ dogYears(10);
