@@ -18,6 +18,7 @@ Functions worksheet
  }
 */
 
+ //CIRCUMFERENCE
  //Calculate the circumference of a circle
  //Define variables for givens - pi & radius
  var pi = 3.14;
@@ -31,4 +32,12 @@ Functions worksheet
   return pi*radius*2;
  }
 
-//Calculate how many bee stings it would take to kill an animal based on the animal's weight
+ //STUNG
+ // Calculate how many bee stings it would take to kill an animal based on the animal's weight
+ //Define variables for givens - victims weight(lbs) & bee stings/lb to kill animal
+ var = victimWeight = 10;
+ var = lethalStingsPerLb = 8.666666667;
+ //Use variable to create a storage bin for amount of stings it would take to kill an animal based on it's weight
+ var stingsToKill = numberOfStings(victimWeight, lethalStingsPerLb);
+ //print results to console
+ console.log("It takes " + stingsToKill + " bee stings to kill this animal.");
