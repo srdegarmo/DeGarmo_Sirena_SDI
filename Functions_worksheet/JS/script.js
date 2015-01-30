@@ -19,12 +19,16 @@ Functions worksheet
 */
 
  //Calculate the circumference of a circle
+ //Define variables for givens - pi & radius
  var pi = 3.14;
  var radius = 2;
+ //use variable to create a storage bin for the function's result
  var circumference = calcCircumference(pi, radius);
  console.log("The circumference of the circle is " + circumference);
-
+ //call calcCircumference function
  function calcCircumference(pi, radius){
+  //tell machine what data to give us from the function
   return pi*radius*2;
  }
 
+//Calculate how many bee stings it would take to kill an animal based on the animal's weight
