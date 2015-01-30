@@ -25,6 +25,8 @@ Functions Screencast
    code the function runs
   }
 
+  Arguments are things going into the function
+  Returning is things coming out of the function
   */
 
  function yourName(){
@@ -44,12 +46,12 @@ Functions Screencast
  }
  addNumbers();
 
-
+ var total = calcArea(30, 20); //whatever function returns, store it in this variable
  function calcArea(w, h){
   var area = w * h;
-  console.log(area);
+  return area;
  }
- calcArea(30, 20);
+ console.log(total);
 
  function dogYears(age){
   var dogYears = age * 7;
@@ -57,3 +59,4 @@ Functions Screencast
  }
  dogYears(4);
  dogYears(10);
+
