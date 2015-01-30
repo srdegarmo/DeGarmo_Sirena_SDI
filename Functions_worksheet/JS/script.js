@@ -41,3 +41,9 @@ Functions worksheet
  var stingsToKill = numberOfStings(victimWeight, lethalStingsPerLb);
  //print results to console
  console.log("It takes " + stingsToKill + " bee stings to kill this animal.");
+ //call numberOfStings function
+ //define parameters for weight and stings
+ function numberOfStrings(w, s){
+  //tell machine what data to give us from the function
+  return w*s;
+ }
