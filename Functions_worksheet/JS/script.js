@@ -35,15 +35,15 @@ Functions worksheet
  //STUNG
  // Calculate how many bee stings it would take to kill an animal based on the animal's weight
  //Define variables for givens - victims weight(lbs) & bee stings/lb to kill animal
- var = victimWeight = 10;
- var = lethalStingsPerLb = 8.666666667;
+ var victimWeight = 10;
+ var lethalStingsPerLb = 8.666666667;
  //Use variable to create a storage bin for amount of stings it would take to kill an animal based on it's weight
- var stingsToKill = numberOfStings(victimWeight, lethalStingsPerLb);
+ var stingsToKill = calcStings(victimWeight, lethalStingsPerLb);
  //print results to console
  console.log("It takes " + stingsToKill + " bee stings to kill this animal.");
- //call numberOfStings function
+ //call calcStings function
  //define parameters for weight and stings
- function numberOfStrings(w, s){
+ function calcStings(victimWeight, lethalStingsPerLb){
   //tell machine what data to give us from the function
-  return w*s;
+  return victimWeight*lethalStingsPerLb;
  }
