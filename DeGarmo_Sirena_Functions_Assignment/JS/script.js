@@ -13,3 +13,9 @@ Functions Assignment
  //value returned for each function
  //no main code variable inside of function - must pass in as argument
  //all user prompts must be validated using a while loop
+
+ //Calculate area of circle
+ //Tell user what were are doing
+ var radius = prompt("We are calculating the area of a circle.\n Please enter the radius of the circle:");
+ console.log(radius);
+ 
