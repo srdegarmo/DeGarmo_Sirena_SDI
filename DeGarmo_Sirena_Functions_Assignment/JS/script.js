@@ -37,4 +37,6 @@ Functions Assignment
  //define variables in function to hold area of a circle
  var area = calcArea;
  var calcArea = (pi * (radius * radius));
- 
+
+ //print results to user through the console
+ console.log("The area of the circle is " + calcArea + " " + unit + "^2.");
