@@ -14,44 +14,13 @@ Functions Assignment
  //no main code variable inside of function - must pass in as argument
  //all user prompts must be validated using a while loop
 
- //Calculate area of circle
 
- //Tell user what were are doing
- alert("We're calculating the area of a circle.");
- //Ask user for radius
- var radius = prompt("Please enter the radius of the circle:");
- //print radius results to console
- console.log(radius);
- //Ask user what unit we are calculating the area in
- var unit = prompt("Please enter the unit the circle is measured in:");
- //Print unit results to console
- console.log(unit);
- //create variable for value of pi
- var pi = 3.14;
- //create function to calculate area of the circle
- function areaOfCircle(r, p, u){
-  var radius =
- }
 
- //print radius to console
- console.log(radius);
+ //CALCULATE AREA OF A CIRCLE
 
- //Ask user for unit the circle is calculated in
- var units = prompt("Please enter the unit the circle is measured in:");
+ //TELL USER WHAT WE ARE DOING
+  alert("We're calculating the area of a circle.");
 
- //print units to console
- console.log(units);
-
- //Create variable for pi
- var pi = 3.14;
-
- //Create variable to capture area of circle - Area=pi*radius^2
- var areaOfCircle = pi * Math.pow(radius, 2);
-
- //tell user the area of the circle using an alert
- alert("The area of the circle is " + areaOfCircle + units + "^2");
-
- //use a function to calculate what the area would be if the radius increased by 1 every time
- function circleArea(radius, pi, units){
-  console.log("The area of the circle is " + areaOfCircle + units + "^2");
- }
+ //DEFINE GIVENS & CREATE FUNCTION
+ //Collect givens
+ var unit = prompt("What unit are we calculating the area of a circle in:");

@@ -32,7 +32,7 @@ Functions Screencast
   var functionName = function(){
   //code to run
   }
-  functionName();
+  functionName()
   */
 
  function yourName(){
