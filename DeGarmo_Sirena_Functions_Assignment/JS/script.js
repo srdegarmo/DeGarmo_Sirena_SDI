@@ -17,10 +17,25 @@ Functions Assignment
 
 
  //CALCULATE AREA OF A CIRCLE
+ //Area = PI*RADIUS^2
 
  //TELL USER WHAT WE ARE DOING
   alert("We're calculating the area of a circle.");
 
  //DEFINE GIVENS & CREATE FUNCTION
  //Collect givens
+
+ //Define value of pi
+ var pi = 3.14;
+
+ //Ask user what unit we are using
  var unit = prompt("What unit are we calculating the area of a circle in:");
+
+ //Ask user the radius
+ var radius = prompt("What is the radius of the circle:");
+
+ //define variables in function to calculate area of a circle
+ var area = calcArea(pi * (radius * radius));
+
+ //Area = pi * radius^2
+ function calcArea(u, r)
