@@ -18,14 +18,22 @@ Functions Assignment
  //Tell user what were are doing
  //Ask user for radius
  var radius = prompt("We are calculating the area of a circle.\n Please enter the radius of the circle:");
+
  //print radius to console
  console.log(radius);
+
  //Ask user for unit the circle is calculated in
  var units = prompt("Please enter the unit the circle is measured in:");
+
  //print units to console
  console.log(units);
+
  //Create variable for pi
  var pi = 3.14;
+
  //Create variable to capture area of circle - Area=pi*radius^2
  var areaOfCircle = pi * radius^2
+
+ //tell user the area of the circle using an alert
+ alert("The area of the circle is " + areaOfCircle + units + "^2");
  
