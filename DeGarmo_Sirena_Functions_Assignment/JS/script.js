@@ -16,28 +16,29 @@ Functions Assignment
 
 
 
- //CALCULATE AREA OF A CIRCLE
- //Area = PI*RADIUS^2
+ //SOlVE PYTHAGORAS EQUATION
+ //a^2 + b^2 = c^2
 
  //TELL USER WHAT WE ARE DOING
-  alert("We're calculating the area of a circle.");
+  alert("We're solving a pythagoras equation when we are given the data for A & B.");
 
  //DEFINE GIVENS & CREATE FUNCTION
  //Collect givens
- //Ask user how they will define Pi
- var pi = prompt("What will you use to represent Pi:");
- //Ask user what unit we are using
- var unit = prompt("What unit are we calculating the area of a circle in:");
- //Ask user the radius
- var radius = prompt("What is the radius of the circle:");
+ //Ask user for A
+ var a = prompt("What is the value of a:");
+ //Ask user for B
+ var b = prompt("What is the value of b:");
+ //Ask user for C
+ var c = prompt("What is the value of c:");
 
 //invoke function & assign variable to hold the info the function returns
- var total = calcArea(pi, radius);
+ var pythagoras = calcTotal(a, b, c);
 
- //use function with parameters to calculate area of circle
- function calcArea(pi, radius){
-     var area = pi * radius * radius;
-     return area;
+ //use function with parameters to calculate answer & return results to function invocation
+ function calcTotal(a, b, c){
+     var results = a*a + b*b;
+     return results;
  }
-
- console.log("The area of the circle is " + total + unit + "^2.");
+//print results to console
+ console.log("The answer to the equation is " + pythagoras + " = " + "c^2");
+ 
