@@ -31,8 +31,8 @@ Functions Assignment
  //Ask user the radius
  var radius = prompt("What is the radius of the circle:");
 
- //call function & create storage bin for user input (arguments)
- calcArea(pi, radius);
+//invoke function & assign variable to hold the info the function returns
+ var total = calcArea(pi, radius);
 
  //use function with parameters to calculate area of circle
  function calcArea(pi, radius){
@@ -40,3 +40,4 @@ Functions Assignment
      return area;
  }
 
+ console.log("The area of the circle is " + total + unit + "^2.");
