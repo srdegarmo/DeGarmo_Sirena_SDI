@@ -34,13 +34,13 @@ Functions Assignment
 
  //TEST USER INPUT WITH LOOPS
  //validate user prompt for A using a while loop
- while(a >= 15){
+ while(a>0){
      a--;
      console.log(a);
  }
 
  //validate user prompt for B using a while loop
- while(b > 0){
+ while(b>0){
      b--;
      console.log(b);
  }
@@ -51,10 +51,10 @@ Functions Assignment
  //Ask user if they want to continue
  alert("Are you ready for some more math?");
 
- //Tell user what we are doing
+ //TELL USER WHAT WE'RE DOING
  alert("We are going to calculate the product of 3 numbers.\nClick OK to begin");
 
- //Define variables
+ //DEFINE VARIABLES
  //ask user for first number
  var x = prompt("What is the first number?");
  //ask user for second number
@@ -76,4 +76,20 @@ Functions Assignment
  console.log("The product of the three numbers is " + product + "!");
 
  //TEST USER INPUT WITH LOOPS
- //validate user input for 1st number with 
+ //validate user input for 1st number with while loop
+ while(x>0){ //if x is greater than 0, print this to console
+     console.log(x);
+     x--; //decrement loop
+ }
+
+ //validate user input for 2nd number with while loop
+ while(y>0){ //if y is greater than 0, print this to console
+     console.log(y);
+     y--; //decrement loop
+ }
+
+ //validate user input for 3rd number with while loop
+ while(z<0){ //if z is greater than 0, print this to console
+     console.log(z);
+     z++; //increment loop
+ }
