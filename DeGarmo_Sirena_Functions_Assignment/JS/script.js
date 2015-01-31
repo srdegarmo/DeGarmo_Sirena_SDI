@@ -24,19 +24,18 @@ Functions Assignment
 
  //DEFINE GIVENS & CREATE FUNCTION
  //Collect givens
-
  //Ask user how they will define Pi
- var pi = prompt("What will you use to calculate Pi:");
-
+ var pi = prompt("What will you use to represent Pi:");
  //Ask user what unit we are using
  var unit = prompt("What unit are we calculating the area of a circle in:");
-
  //Ask user the radius
  var radius = prompt("What is the radius of the circle:");
 
- //define variables in function to hold area of a circle
- var area = calcArea;
- var calcArea = (pi * (radius * radius));
+
+ //use function with parameters to calculate area of circle
+ function calcArea(pi, radius){
+     return pi* radius * radius;
+ }
 
  //print results to user through the console
  console.log("The area of the circle is " + calcArea + " " + unit + "^2.");
