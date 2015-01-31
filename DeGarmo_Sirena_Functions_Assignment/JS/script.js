@@ -10,7 +10,6 @@ Functions Assignment
  //1 anonymous function - w/ argument and parameter
  //1 function needs 3 parameters
  //value returned for each function
- //all user prompts must be validated using a while loop
 
 
  //SOlVE PYTHAGORAS EQUATION
@@ -48,3 +47,20 @@ Functions Assignment
      b--;
      console.log(b);
  }
+
+ //ADDITION WITH 3 VARIABLES
+ //x + y + z = total
+
+ //Ask user if they want to continue
+ alert("Are you ready for some more math?");
+
+ //Tell user what we are doing
+ alert("We are going to calculate the sum of 3 numbers.\nClick OK to begin");
+
+ //Define variables
+ //ask user for first number
+ var x = prompt("What is the first number?");
+ //ask user for second number
+ var y = prompt("What is the second number?");
+ //ask user for third number
+ var z = prompt("What is the third number?")
