@@ -32,8 +32,10 @@ Functions Assignment
  var pi = 3.14;
 
  //Create variable to capture area of circle - Area=pi*radius^2
- var areaOfCircle = pi * radius^2
+ var areaOfCircle = pi * Math.pow(radius, 2);
 
  //tell user the area of the circle using an alert
  alert("The area of the circle is " + areaOfCircle + units + "^2");
- 
+
+ //use a function to calculate what the area would be if the radius
+
