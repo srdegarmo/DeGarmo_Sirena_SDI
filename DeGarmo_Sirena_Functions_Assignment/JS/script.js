@@ -34,8 +34,7 @@ Functions Assignment
  //Ask user the radius
  var radius = prompt("What is the radius of the circle:");
 
- //define variables in function to calculate area of a circle
- var area = calcArea(pi * (radius * radius));
-
- //Area = pi * radius^2
- function calcArea(u, r)
+ //define variables in function to hold area of a circle
+ var area = calcArea;
+ var calcArea = (pi * (radius * radius));
+ 
