@@ -55,7 +55,7 @@ Functions Assignment
  alert("Are you ready for some more math?");
 
  //Tell user what we are doing
- alert("We are going to calculate the sum of 3 numbers.\nClick OK to begin");
+ alert("We are going to calculate the product of 3 numbers.\nClick OK to begin");
 
  //Define variables
  //ask user for first number
@@ -66,14 +66,14 @@ Functions Assignment
  var z = prompt("What is the third number?");
 
  //create anonymous function to hold data
- var add = function(x, y, z){
-     var total = x + y + z;
+ var multiply = function(x, y, z){
+     var total = x * y * z;
      return(total);
  }
 
  //invoke function & reference arguments collected form user
- //assign variable to hold sum of numbers calculated through the function
- var sum = add(x, y, z);
+ //assign variable to hold product of numbers calculated through the function
+ var product = multiply(x, y, z);
 
  //print sum to console
- console.log("The sum of the three numbers is " + sum + "!");
+ console.log("The product of the three numbers is " + product + "!");
