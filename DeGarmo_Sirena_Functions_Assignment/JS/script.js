@@ -63,4 +63,17 @@ Functions Assignment
  //ask user for second number
  var y = prompt("What is the second number?");
  //ask user for third number
- var z = prompt("What is the third number?")
+ var z = prompt("What is the third number?");
+
+ //create anonymous function to hold data
+ var add = function(x, y, z){
+     var total = x + y + z;
+     return(total);
+ }
+
+ //invoke function & reference arguments collected form user
+ //assign variable to hold sum of numbers calculated through the function
+ var sum = add(x, y, z);
+
+ //print sum to console
+ console.log("The sum of the three numbers is " + sum + "!");
