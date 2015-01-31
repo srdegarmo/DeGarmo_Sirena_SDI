@@ -12,49 +12,51 @@ Functions Assignment
  //a^2 + b^2 = c^2
 
  //TELL USER WHAT WE ARE DOING
+ //create alert to notify user
   alert("We're solving a pythagoras equation when we are given the data for A & B.");
 
- //DEFINE GIVENS & CREATE FUNCTION
- //Collect givens
+ //DEFINE GIVENS
  //Ask user for A
  var a = prompt("What is the value of a:");
  //Ask user for B
  var b = prompt("What is the value of b:");
 
-//invoke function & assign variable to hold the info the function returns
- var pythagoras = calcTotal(a, b);
+//CALL FUNCTION
+//assign function to variable so we can store the data returned from the function
+ var pythagoras = calcTotal(a, b); //declare arguments
 
- //use function with parameters to calculate answer & return results to function invocation
+ //use function with parameters to calculate answer
  function calcTotal(a, b){
      var results = a*a + b*b;
-     return results;
+     return results; //return results to function invocation
  }
 //print results to console
  console.log("The answer to the equation is " + pythagoras + " = " + "c^2");
 
  //TEST USER INPUT WITH LOOPS
  //validate user prompt for A using a while loop
- while(a>0){
-     a--;
+ while(a>0){ //if a is greater than 0, print this to console
      console.log(a);
+     a--; //decrement a
  }
 
  //validate user prompt for B using a while loop
- while(b>0){
-     b--;
+ while(b>0){ //if b is greater than 0, print this to console
      console.log(b);
+     b--; //decrement b
  }
+
 
  //MULTIPLICATION WITH 3 VARIABLES
  //x * y * z = total
 
- //Ask user if they want to continue
+ //Ask user if they want to continue w/ alert
  alert("Are you ready for some more math?");
 
- //TELL USER WHAT WE'RE DOING
+ //TELL USER WHAT WE'RE DOING w/ alert
  alert("We are going to calculate the product of 3 numbers.\nClick OK to begin");
 
- //DEFINE VARIABLES
+ //DEFINE VARIABLES to store user input
  //ask user for first number
  var x = prompt("What is the first number?");
  //ask user for second number
