@@ -37,5 +37,8 @@ Functions Assignment
  //tell user the area of the circle using an alert
  alert("The area of the circle is " + areaOfCircle + units + "^2");
 
- //use a function to calculate what the area would be if the radius
-
+ //use a function to calculate what the area would be if the radius increased by 1 every time
+ function circleArea(radius, pi, units){
+  console.log("The area of the circle is " + areaOfCircle + units + "^2");
+ }
+ 
