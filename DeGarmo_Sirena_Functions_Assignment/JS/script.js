@@ -7,10 +7,6 @@ Functions Assignment
 */
 //alert("Testing to see if the JS file is attached to the html.");
 
- //1 anonymous function - w/ argument and parameter
- //1 function needs 3 parameters
- //value returned for each function
-
 
  //SOlVE PYTHAGORAS EQUATION
  //a^2 + b^2 = c^2
@@ -36,20 +32,21 @@ Functions Assignment
 //print results to console
  console.log("The answer to the equation is " + pythagoras + " = " + "c^2");
 
- //validate user prompt for A using a loop
+ //TEST USER INPUT WITH LOOPS
+ //validate user prompt for A using a while loop
  while(a >= 15){
      a--;
      console.log(a);
  }
 
- //validate user prompt for B using a loop
+ //validate user prompt for B using a while loop
  while(b > 0){
      b--;
      console.log(b);
  }
 
- //ADDITION WITH 3 VARIABLES
- //x + y + z = total
+ //MULTIPLICATION WITH 3 VARIABLES
+ //x * y * z = total
 
  //Ask user if they want to continue
  alert("Are you ready for some more math?");
@@ -77,3 +74,6 @@ Functions Assignment
 
  //print sum to console
  console.log("The product of the three numbers is " + product + "!");
+
+ //TEST USER INPUT WITH LOOPS
+ //validate user input for 1st number with 
