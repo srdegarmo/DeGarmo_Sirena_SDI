@@ -25,8 +25,8 @@ Functions Assignment
  //DEFINE GIVENS & CREATE FUNCTION
  //Collect givens
 
- //Define value of pi
- var pi = 3.14;
+ //Ask user how they will define Pi
+ var pi = prompt("What will you use to calculate Pi:");
 
  //Ask user what unit we are using
  var unit = prompt("What unit are we calculating the area of a circle in:");
