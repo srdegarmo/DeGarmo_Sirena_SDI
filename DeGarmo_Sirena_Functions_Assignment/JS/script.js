@@ -15,9 +15,23 @@ Functions Assignment
  //all user prompts must be validated using a while loop
 
  //Calculate area of circle
+
  //Tell user what were are doing
+ alert("We're calculating the area of a circle.");
  //Ask user for radius
- var radius = prompt("We are calculating the area of a circle.\n Please enter the radius of the circle:");
+ var radius = prompt("Please enter the radius of the circle:");
+ //print radius results to console
+ console.log(radius);
+ //Ask user what unit we are calculating the area in
+ var unit = prompt("Please enter the unit the circle is measured in:");
+ //Print unit results to console
+ console.log(unit);
+ //create variable for value of pi
+ var pi = 3.14;
+ //create function to calculate area of the circle
+ function areaOfCircle(r, p, u){
+  var radius =
+ }
 
  //print radius to console
  console.log(radius);
@@ -41,4 +55,3 @@ Functions Assignment
  function circleArea(radius, pi, units){
   console.log("The area of the circle is " + areaOfCircle + units + "^2");
  }
- 
