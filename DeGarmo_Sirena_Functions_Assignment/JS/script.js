@@ -26,7 +26,7 @@ Functions Assignment
  var pythagoras = calcTotal(a, b); //declare arguments
 
  //use function with parameters to calculate answer
- function calcTotal(a, b){
+ function calcTotal(a, b){ //define parameters
      var results = a*a + b*b;
      return results; //return results to function invocation
  }
@@ -74,7 +74,7 @@ Functions Assignment
  //assign variable to hold product of numbers calculated through the function
  var product = multiply(x, y, z);
 
- //print sum to console
+ //print PRODUCT to console
  console.log("The product of the three numbers is " + product + "!");
 
  //TEST USER INPUT WITH LOOPS
